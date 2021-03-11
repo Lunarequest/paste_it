@@ -1,9 +1,12 @@
+"""a cli script and tiny library to upload files to pastebin"""
 import requests
 import logging
 import os
 from time import sleep
 from rich.logging import RichHandler
 from typing import Dict, Tuple
+
+__version__ = "0.1.0"
 
 FORMAT: str = "%(message)s"
 logging.basicConfig(
