@@ -7,7 +7,7 @@ from rich import print
 from sys import exit
 from paste_it import make_user_api_key, paste  # type: ignore
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(prog="paste_it")
     parser.add_argument(
         "--format",
