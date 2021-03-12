@@ -6,7 +6,7 @@ from time import sleep
 from rich.logging import RichHandler
 from typing import Dict, Tuple
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 FORMAT: str = "%(message)s"
 logging.basicConfig(
