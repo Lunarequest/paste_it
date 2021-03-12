@@ -8,6 +8,7 @@ rich = "*"
 argparse = "*"
 requests = "*"
 paste-it = {path = "./dist/paste_it-0.1.0-py3-none-any.whl"}
+appdirs = "*"
 
 ["dev - packages"]
 mypy = "*"
