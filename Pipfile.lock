@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5621f4fc49f43e9f4da4a02e5cb5eadb2d826be78a6c8e8c54cfa045d4170a90"
+            "sha256": "2a5e1e56c67309a61fad1c8e20d4ed253a4e6dba74b602a0d8d4df2fa1274506"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "appdirs": {
+            "hashes": [
+                "sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41",
+                "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"
+            ],
+            "index": "pypi",
+            "version": "==1.4.4"
+        },
         "argparse": {
             "hashes": [
                 "sha256:62b089a55be1d8949cd2bc7e0df0bddb9e028faefc8c32038cc84862aefdd6e4",
@@ -64,7 +72,10 @@
         },
         "paste-it": {
             "hashes": [
-                "sha256:84153061038cdc2c58c73e8075e1eba5ea1b695fc7b365daf69d384110dad54d"
+                "sha256:066dcbbf254631bb2e5d36a53680689265760586d61923c22897b1cd80a3d1cf",
+                "sha256:2535ccf7bc23f2bd98131b4deb5bde8808cc76f5482e43b217c7928ded48349b",
+                "sha256:84153061038cdc2c58c73e8075e1eba5ea1b695fc7b365daf69d384110dad54d",
+                "sha256:bb10c7fad31e8555d61a544f55c29ea978c4a9e906939e86dff35cc5b2280db7"
             ],
             "path": "./dist/paste_it-0.1.0-py3-none-any.whl",
             "version": "==0.1.0"
