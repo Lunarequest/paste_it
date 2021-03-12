@@ -62,6 +62,9 @@ def main():
                 paste_status = paste(
                     content, args.title, args.format, args.private, config
                 )
-            print(paste_status)
+            if paste_status[0]:
+                print(f"created paste at {paste_status[1]}")
+            else:
+                print(f"could not create paste, {paste_status[1]}")
     else:
         print("[red]file path is not valid[/red]")
