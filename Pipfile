@@ -24,3 +24,4 @@ allow_prereleases = true
 python-vim = "*"
 sphinx = "*"
 flit = "*"
+types-requests = "*"
